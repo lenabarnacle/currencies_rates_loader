@@ -1,0 +1,8 @@
+include:
+  - project: 'urbnvape/devops/deploy/deploy'
+    ref: master
+    file: '/build-non-service.yml'
+
+variables:
+  SCRIPT_PATH: main.py
+  MEMORY: 2Gi

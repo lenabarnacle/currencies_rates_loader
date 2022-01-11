@@ -1,0 +1,1 @@
+CURRENCY_LIST = ['USD','EUR','CNY']

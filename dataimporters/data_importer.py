@@ -81,7 +81,7 @@ class CurrencyRatesLoader(BaseImporter):
             for_date['date'] = datetime.strptime(date, '%d/%m/%Y')
 
             currencies = currencies.append(for_date)
-            currencies = currencies.to_dict(orient='records')
+        currencies = currencies.to_dict(orient='records')
         return currencies
 
     def save_currency_rates(self, currencies):

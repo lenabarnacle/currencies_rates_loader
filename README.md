@@ -1,3 +1,1 @@
-# currency_rates_loader
-
-Загрузка курсов основных валют с cbr.ru
+Loading everyday rates of some currencies to the data warehouse.
